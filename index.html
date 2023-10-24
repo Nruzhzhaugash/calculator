@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="container">
+            <div class="calculator__inner">
+                <h1>Калькулятор</h1>
+                <input class="number1" type="number" placeholder="Введите 1 число" id="input1"/>
+                <input class="number2" type="number" placeholder="Введите 2 число" id="input2"/>
+            <div class="compute">
+                <button class="compute__plus" id="plus">+</button>
+                <button class="compute__minus" id="minus">-</button>
+            </div>
+                <button class="calculate" id="submit">Вычислить</button>
+                <div class="result">
+                    <h4>Результат:</h4>
+                    <p id="result">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
